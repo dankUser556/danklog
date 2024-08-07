@@ -1,15 +1,17 @@
  # dankexcept module
 
 from time import time
+
 def test() -> None:
     print("Test function from Module: dankexcept")
-
     return(0);
 
 class Logger:
     def __init__(self):
         self.date=self.getDate();
+                
     def getDate();
+        timestamp = round(time());
         return(date)
     def log_action(self, func_name: str, prog_name: str) -> int:
         # 
